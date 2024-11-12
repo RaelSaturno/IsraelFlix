@@ -1,0 +1,59 @@
+body{
+    background: yellow;
+    color: purple;
+    margin: 0px;
+    font-family: "Londrina Sketch", sans-serif;     
+}
+
+header{
+    border-bottom: solid 2px rgba(28, 4, 245, 0.909);;
+    padding: 20px;
+    font-size: 32px;
+    color: rgba(28, 4, 245, 0.909);
+}
+
+.chamada{
+    background: black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid red; 
+}
+
+.categoria h2 {
+    color: rgba(28, 4, 245, 0.909);
+}
+
